@@ -1,0 +1,71 @@
+%! TEX program = xelatex
+\documentclass[12pt]{report}
+
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{citations/citation.bib}
+
+% add image paths
+\graphicspath{{images/}}
+
+% set layout
+\geometry{
+ a4paper,
+ tmargin=4cm,
+ bmargin=3cm,
+ lmargin=4cm,
+ rmargin=3cm,
+}
+
+% Change figure name to "Gambar"
+\renewcommand{\figurename}{Gambar}
+
+% set title format
+\titleformat{\chapter}[hang]{\fontsize{12}{12}\centering}{\thechapter}{}{}
+\titleformat{\section}[hang]{\fontsize{12}{12}}{\thesection}{1pc}{}
+\titleformat{\subsection}[hang]{\fontsize{12}{12}}{\thesubsection}{1pc}{}
+\titleformat{\subsubsection}[hang]{\fontsize{12}{12}}{\thesubsubsection}{1pc}{}
+\titlespacing*{\chapter}{0pt}{18pt plus 6pt minus 6pt}{6pt}
+\titlespacing*{\section}{0pt}{18pt plus 6pt minus 6pt}{6pt}
+\titlespacing*{\subsection}{0pt}{18pt plus 6pt minus 6pt}{6pt}
+\setmainfont{Times New Roman}
+
+% add title page
+\title{ANALISIS PERGERAKAN HARGA SAHAM DI INDONESIA SEBAGAI SISTEM PENDUKUNG KEPUTUSAN INVESTASI BERDASARKAN DATA HISTORIS DENGAN ALGORITMA LONG SHORT-TERM MEMORY (LSTM)}
+\author{Ilham Suandi \\ Information Systems}
+\date{}
+
+% begin document
+\begin{document}
+% set word wrap and hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\setlength{\emergencystretch}{2em}
+
+% set paragraph spacing
+\onehalfspacing
+
+% set paragraph indentation
+\setlength{\parindent}{15pt}
+
+% add title page
+\maketitle
+
+% chapter 1
+\setcounter{chapter}{1}
+\chapter*{\textbf{BAB 1 \\ PENDAHULUAN}}
+\input{sections/latar_belakang.tex}
+\input{sections/rumusan_masalah.tex}
+\input{sections/tujuan_penelitian.tex}
+\input{sections/manfaat_penelitian.tex}
+
+% insert bibliography
+\printbibliography[title=Daftar Pustaka]
+
+\end{document}
