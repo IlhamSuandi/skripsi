@@ -2,8 +2,11 @@
 *.blg
 *.fdb_latexmk
 *.fls
-.log
+*.log
 *.pdf
 *.run.xml
 *.synctex.gz
 *.xdv
+*.aux
+*.lof
+*.lot

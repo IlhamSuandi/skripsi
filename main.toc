@@ -1,0 +1,8 @@
+\contentsline {chapter}{Daftar Isi}{1}{}%
+\contentsline {chapter}{BAB I}{2}{}%
+\contentsline {chapter}{PENDAHULUAN}{2}{}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{2}{}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{6}{}%
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{6}{}%
+\contentsline {section}{\numberline {1.4}Manfaat Penelitian}{6}{}%
+\contentsline {chapter}{BAB II}{7}{}%

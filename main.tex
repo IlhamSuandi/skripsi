@@ -1,6 +1,7 @@
 %! TEX program = xelatex
 \documentclass[12pt]{report}
 
+\usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{fontspec}
@@ -23,8 +24,9 @@
  rmargin=3cm,
 }
 
-% Change figure name to "Gambar"
+% Change default naming
 \renewcommand{\figurename}{Gambar}
+\renewcommand{\contentsname}{Daftar Isi}
 
 % set title format
 \titleformat{\chapter}[hang]{\fontsize{12}{12}\centering}{\thechapter}{}{}
@@ -50,6 +52,7 @@
 
 % set paragraph spacing
 \onehalfspacing
+\frenchspacing
 
 % set paragraph indentation
 \setlength{\parindent}{15pt}
@@ -57,15 +60,28 @@
 % add title page
 \maketitle
 
+% Table of Contents
+\tableofcontents
+
+% Add List of Figures and Tables to the Table of Contents
+\addcontentsline{toc}{chapter}{Daftar Isi}
+
 % chapter 1
 \setcounter{chapter}{1}
-\chapter*{\textbf{BAB 1 \\ PENDAHULUAN}}
+\chapter*{\textbf{BAB I \\ PENDAHULUAN}}
+\addcontentsline{toc}{chapter}{BAB I}
+\addcontentsline{toc}{chapter}{PENDAHULUAN}
+
 \input{sections/latar_belakang.tex}
 \input{sections/rumusan_masalah.tex}
 \input{sections/tujuan_penelitian.tex}
 \input{sections/manfaat_penelitian.tex}
 
+% chapter 2
+\chapter*{\textbf{BAB II \\ }}
+\addcontentsline{toc}{chapter}{BAB II}
+
 % insert bibliography
-\printbibliography[title=Daftar Pustaka]
+\printbibliography[title=\textbf{Daftar Pustaka}]
 
 \end{document}

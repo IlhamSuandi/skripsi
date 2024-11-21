@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{alim2023pemodelan}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc6fc95ae71bfbd9546e29e898bdac2a}{%
+           family={Alim},
+           familyi={A\bibinitperiod},
+           given={Muhammad\bibnamedelima Nur},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \strng{fullhash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \strng{bibnamehash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \strng{authorbibnamehash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \strng{authornamehash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \strng{authorfullhash}{fc6fc95ae71bfbd9546e29e898bdac2a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{PRISMA, Prosiding Seminar Nasional Matematika}
+      \field{title}{Pemodelan Time Series Data Saham LQ45 dengan Algoritma LSTM, RNN, dan Arima}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{pages}{694\bibrangedash 701}
+      \range{pages}{8}
+    \endentry
     \entry{chairurrachman2022penerapan}{thesis}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -84,6 +112,47 @@
       \field{pages}{1570\bibrangedash 1580}
       \range{pages}{11}
     \endentry
+    \entry{pipin2023prediksi}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=027bfcf29cd33bab6b63102f00c219b4}{%
+           family={Pipin},
+           familyi={P\bibinitperiod},
+           given={Sio\bibnamedelima Jurnalis},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99c492e782bfae567193af16dc248e88}{%
+           family={Purba},
+           familyi={P\bibinitperiod},
+           given={Ronsen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd051a137cb5d21386637ace871d7d53}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Heru},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b403f22ad1249928432a0e4dc4808a38}
+      \strng{fullhash}{b403f22ad1249928432a0e4dc4808a38}
+      \strng{bibnamehash}{b403f22ad1249928432a0e4dc4808a38}
+      \strng{authorbibnamehash}{b403f22ad1249928432a0e4dc4808a38}
+      \strng{authornamehash}{b403f22ad1249928432a0e4dc4808a38}
+      \strng{authorfullhash}{b403f22ad1249928432a0e4dc4808a38}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer System and Informatics (JoSYC)}
+      \field{number}{4}
+      \field{title}{Prediksi Saham Menggunakan Recurrent Neural Network (RNN-LSTM) dengan Optimasi Adaptive Moment Estimation}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{806\bibrangedash 815}
+      \range{pages}{10}
+    \endentry
     \entry{Shen2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=eea4d9fb06e4b57a25d915eafc1e08d5}{%
@@ -130,6 +199,118 @@
       \verb{url}
       \verb https://doi.org/10.1186/s40537-020-00333-6
       \endverb
+    \endentry
+    \entry{soebiantoro2021perdagangan}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f0598b65784df850040b37e144e8b105}{%
+           family={Soebiantoro},
+           familyi={S\bibinitperiod},
+           given={Ugy},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Program Studi Ilmu Ekonomi Pembangunan}%
+      }
+      \strng{namehash}{f0598b65784df850040b37e144e8b105}
+      \strng{fullhash}{f0598b65784df850040b37e144e8b105}
+      \strng{bibnamehash}{f0598b65784df850040b37e144e8b105}
+      \strng{authorbibnamehash}{f0598b65784df850040b37e144e8b105}
+      \strng{authornamehash}{f0598b65784df850040b37e144e8b105}
+      \strng{authorfullhash}{f0598b65784df850040b37e144e8b105}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Ilmu Ekonomi Pembangunan}
+      \field{number}{01}
+      \field{title}{Perdagangan Saham yang Paling Moncer dalam Masa Pandemi Covid 19}
+      \field{volume}{15}
+      \field{year}{2021}
+    \endentry
+    \entry{sofi2021perbandingan}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=eeca9ff54387318dcbe7d5b785f92066}{%
+           family={Sofi},
+           familyi={S\bibinitperiod},
+           given={Khalis},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df35087d5a3ef2b8c7a41c0c731953d4}{%
+           family={Sunge},
+           familyi={S\bibinitperiod},
+           given={Aswan\bibnamedelima Supriyadi},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72c2325a0caac9b0f3f877fb8f0d045d}{%
+           family={Riady},
+           familyi={R\bibinitperiod},
+           given={Sasmitoh\bibnamedelima Rahmad},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f81b5af3a39e395e820ea297736144f6}{%
+           family={Kamalia},
+           familyi={K\bibinitperiod},
+           given={Antika\bibnamedelima Zahrotul},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7337e6ee3bffd1810cff64fcb458764}
+      \strng{fullhash}{faf97fe347e3440de905ca663dd65659}
+      \strng{bibnamehash}{a7337e6ee3bffd1810cff64fcb458764}
+      \strng{authorbibnamehash}{a7337e6ee3bffd1810cff64fcb458764}
+      \strng{authornamehash}{a7337e6ee3bffd1810cff64fcb458764}
+      \strng{authorfullhash}{faf97fe347e3440de905ca663dd65659}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PROSIDING SEMINASTIKA}
+      \field{number}{1}
+      \field{title}{Perbandingan algoritma linear regression, LSTM, dan GRU dalam memprediksi harga saham dengan model time series}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{39\bibrangedash 46}
+      \range{pages}{8}
+    \endentry
+    \entry{wahyuliantini2015pengaruh}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=11d9642124ebe6ef1c36773a8af9f2da}{%
+           family={Wahyuliantini},
+           familyi={W\bibinitperiod},
+           given={Ni\bibnamedelima Made},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=789b960d74e919f179b6ff635b8123d5}{%
+           family={Suarjaya},
+           familyi={S\bibinitperiod},
+           given={Anak\bibnamedelimb Agung\bibnamedelima Gede},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \strng{fullhash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \strng{bibnamehash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \strng{authorbibnamehash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \strng{authornamehash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \strng{authorfullhash}{5c9d03e2e93a233ec98f538f7219ee48}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Manajemen, Strategi Bisnis dan Kewirausahaan}
+      \field{number}{2}
+      \field{title}{Pengaruh harga saham, volume perdagangan saham, dan volatilitas return saham pada bid-ask spread}
+      \field{volume}{9}
+      \field{year}{2015}
+      \field{pages}{146\bibrangedash 155}
+      \range{pages}{10}
     \endentry
   \enddatalist
 \endrefsection
