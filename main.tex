@@ -9,11 +9,51 @@
 \usepackage{setspace}
 \usepackage{blindtext}
 \usepackage{titlesec}
+\usepackage{multirow}
+\usepackage{changepage}
+\usepackage{array}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{pgffor}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
 \usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{citations/citation.bib}
 
 % add image paths
 \graphicspath{{images/}}
+
+\newenvironment{subs}
+  {\adjustwidth{3em}{0pt}}
+  {\endadjustwidth}
+
+  \lstset{
+    language=Python,
+    basicstyle=\ttfamily\scriptsize, % Tiny font to prevent overflow
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{red},
+    commentstyle=\color{green!60!black},
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true, % Enable line wrapping
+    breakatwhitespace=true, % Break lines at spaces or tabs
+    xleftmargin=0pt, % Add left margin
+    xrightmargin=2em, % Add right margin
+    showstringspaces=false,
+    columns=fullflexible, % Ensure proper alignment
+    aboveskip=1em,
+    belowskip=1em,
+    linewidth=\textwidth,  % Ensure the code block fits within the page width
+    escapeinside={(*@}{@*)},  % To include latex commands in code (if needed)
+    keepspaces=true,  % Ensure spaces in the code are respected
+    showtabs=false,  % Hide tabs
+    tabsize=4,  % Set tab size for indentation
+  }
 
 % set layout
 \geometry{
@@ -28,11 +68,7 @@
 \renewcommand{\figurename}{Gambar}
 \renewcommand{\contentsname}{Daftar Isi}
 
-% set title format
-\titleformat{\chapter}[hang]{\fontsize{12}{12}\centering}{\thechapter}{}{}
-\titleformat{\section}[hang]{\fontsize{12}{12}}{\thesection}{1pc}{}
-\titleformat{\subsection}[hang]{\fontsize{12}{12}}{\thesubsection}{1pc}{}
-\titleformat{\subsubsection}[hang]{\fontsize{12}{12}}{\thesubsubsection}{1pc}{}
+% set title spacing and change main font family
 \titlespacing*{\chapter}{0pt}{18pt plus 6pt minus 6pt}{6pt}
 \titlespacing*{\section}{0pt}{18pt plus 6pt minus 6pt}{6pt}
 \titlespacing*{\subsection}{0pt}{18pt plus 6pt minus 6pt}{6pt}
@@ -55,16 +91,109 @@
 \frenchspacing
 
 % set paragraph indentation
-\setlength{\parindent}{15pt}
+\setlength{\parindent}{1cm}
 
+% TODO: hapus nomor halaman pada title page
 % add title page
-\maketitle
-
-% Table of Contents
-\tableofcontents
+\begin{titlepage}
+	\thispagestyle{empty}
+	\titleformat{\chapter}[hang]{\fontsize{14}{14}\centering\bfseries}{\thechapter}{}{}
+	\titleformat{\section}[hang]{\fontsize{14}{14}\bfseries\centering}{\textbf{\thesection}}{1pc}{}
+	\centering
+	\chapter*{SKRIPSI}
+	\section*{ANALISIS PERGERAKAN HARGA SAHAM DI INDONESIA SEBAGAI SISTEM PENDUKUNG KEPUTUSAN INVESTASI BERDASARKAN DATA HISTORIS DENGAN ALGORITMA LONG SHORT-TERM MEMORY (LSTM)}
+	\vspace{2cm}
+	Diajukan untuk Memenuhi Salah Satu Syarat Memperoleh Gelar Sarjana
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\textwidth]{logo_unas.png}
+	\end{figure}
+	\textbf{ILHAM SUANDI ARDI WINATA} \\
+	\textbf{217006516020} \\
+	\vfill
+	{\fontsize{14}{16}\selectfont \textbf{PROGRAM STUDI INFORMATIKA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{FAKULTAS TEKNOLOGI KOMUNIKASI DAN INFORMATIKA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{UNIVERSITAS NASIONAL}} \\
+	{\fontsize{13}{16}\selectfont \textbf{JAKARTA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{2024}}
+\end{titlepage}
 
 % Add List of Figures and Tables to the Table of Contents
+\pagenumbering{roman}
+
+\titleformat{\chapter}[hang]{\fontsize{14}{14}\centering\bfseries}{\thechapter}{}{}
+\chapter*{LAMPIRAN PERSETUJUAN}
+\pagebreak
+
+\titleformat{\section}[hang]{\fontsize{12}{12}\bfseries\centering}{\textbf{\thesection}}{1pc}{}
+\chapter*{ANALISIS PERGERAKAN HARGA SAHAM DI INDONESIA SEBAGAI SISTEM PENDUKUNG KEPUTUSAN INVESTASI BERDASARKAN DATA HISTORIS DENGAN ALGORITMA LONG SHORT-TERM MEMORY (LSTM)}
+\vspace{2cm}
+\section*{SKRIPSI}
+\vspace{2cm}
+\begin{center}
+	Diajukan kepada:\\
+	Universitas Nasional Jakarta \\
+	Untuk memenuhi Salah Satu Persyaratan dalam \\
+	Memperoleh Gelar Sarjana Komputer (S.Kom) \\
+	\vspace{2cm}
+	\textbf{Oleh:}\\
+	\textbf{Ilham Suandi Ardi Winata}\\
+	\textbf{NIM: 217006516020}\\
+	\vfill
+	{\fontsize{14}{16}\selectfont \textbf{PROGRAM STUDI INFORMATIKA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{FAKULTAS TEKNOLOGI KOMUNIKASI DAN INFORMATIKA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{UNIVERSITAS NASIONAL}} \\
+	{\fontsize{13}{16}\selectfont \textbf{JAKARTA}} \\
+	{\fontsize{13}{16}\selectfont \textbf{2024}}
+\end{center}
+\pagebreak
+
+\chapter*{HALAMAN PENGESAHAN}
+\pagebreak
+
+\chapter*{PERNYATAAN KEASLIAN TULISAN}
+\pagebreak
+
+\chapter*{KATA PENGANTAR}
+\vspace{0.5cm}
+\indent
+
+Segala puji hanya milik Allah Subhanahu Wa Ta’ala atas segala nikmat dan kasih sayang Nya yang telah memudahkan penulis untuk menyelesaikan skripsi yang berjudul “ ANALISIS PERGERAKAN HARGA SAHAM DI INDONESIA SEBAGAI SISTEM PENDUKUNG KEPUTUSAN INVESTASI BERDASARKAN DATA HISTORIS DENGAN ALGORITMA LONG SHORT-TERM MEMORY (LSTM) ”. Semoga shalawat dan salam senantiasa terlimpah kepada Nabi Muhammad Sallalahu ‘Alaihi wa Sallam. Dan semoga kita semua mendapat syafaatnya di hari kiamat nanti, Aamiin.
+\vspace{0.5cm}
+
+Penulis mengucapkan rasa syukur dan terima kasih yang tak terhingga kepada semua pihak-pihak yang selalu memberikan bantuan dan motivasi kepada penulis untuk dapat menyelesaikan skripsi ini. Ucapan ini penulis sampaikan kepada:
+
+\begin{enumerate}
+	\item Rektor
+	\item Dospem
+	\item KAPRODI
+	\item Dospem 1\&2
+	\item Orang Tua
+\end{enumerate}
+
+Akhir kata, penulis mengakui bahwa penulisan pada skripsi ini masih banyak kekurangan. Saya berharap semoga skripsi ini diterima sebagai amal ibadah yang tulus dan bermanfaat di sisi Allah Subhanahu Wa Ta’ala. Semoga karya ini menjadi bagian dari kontribusi yang tak terputus dalam rangka memperkuat dan mengembangkan ilmu pengetahuan, serta melaksanakan tugas sebagai manusia yang berkomitmen.
+
+\vfill
+{\raggedleft
+	Jakarta, 22 September 2024
+	\par}
+\pagebreak
+
+% set default title format
+\titleformat{\chapter}[hang]{\fontsize{12}{12}\centering\bfseries}{\thechapter}{}{}
+\titleformat{\section}[hang]{\fontsize{12}{12}\bfseries}{\textbf{\thesection}}{1pc}{}
+\titleformat{\subsection}[hang]{\fontsize{12}{12}\bfseries}{\thesubsection}{1pc}{}
+\titleformat{\subsubsection}[hang]{\fontsize{12}{12}\bfseries}{\thesubsubsection}{1pc}{}
+
+% Table of Contents
+% TODO: tambahkan hyperref untuk seluruh item yang ada didalam TOC
+\tableofcontents
 \addcontentsline{toc}{chapter}{Daftar Isi}
+
+\newpage
+
+% Start Arabic numbering from here
+\pagenumbering{arabic}
 
 % chapter 1
 \setcounter{chapter}{1}
@@ -76,10 +205,31 @@
 \input{sections/rumusan_masalah.tex}
 \input{sections/tujuan_penelitian.tex}
 \input{sections/manfaat_penelitian.tex}
+\input{sections/batasan_masalah.tex}
 
 % chapter 2
-\chapter*{\textbf{BAB II \\ }}
+\setcounter{chapter}{2}
+\setcounter{section}{0}
+\chapter*{\textbf{BAB II \\ KAJIAN PUSTAKA}}
 \addcontentsline{toc}{chapter}{BAB II}
+\addcontentsline{toc}{chapter}{KAJIAN PUSTAKA}
+
+\input{sections/landasan_teori.tex}
+\input{sections/studi_literatur.tex}
+
+% chapter 3
+\setcounter{chapter}{3}
+\setcounter{section}{0}
+\chapter*{\textbf{BAB III \\ METODOLOGI PENELITIAN}}
+\addcontentsline{toc}{chapter}{BAB III}
+\addcontentsline{toc}{chapter}{METODOLOGI PENELITIAN}
+\input{sections/lokasi_penelitian.tex}
+\input{sections/waktu_penelitian.tex}
+\input{sections/subjek_penelitian.tex}
+\input{sections/fokus_penelitian.tex}
+\input{sections/sumber_data.tex}
+\input{sections/pengumpulan_data.tex}
+\input{sections/tahapan_penelitian.tex}
 
 % insert bibliography
 \printbibliography[title=\textbf{Daftar Pustaka}]
