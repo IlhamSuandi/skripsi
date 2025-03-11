@@ -47,6 +47,37 @@
       \field{pages}{694\bibrangedash 701}
       \range{pages}{8}
     \endentry
+    \entry{MerissaKeuntunganSaham}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb3cb49b8d436e91df17d607cbd21502}{%
+           family={Chaca},
+           familyi={C\bibinitperiod},
+           given={Merissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb3cb49b8d436e91df17d607cbd21502}
+      \strng{fullhash}{eb3cb49b8d436e91df17d607cbd21502}
+      \strng{bibnamehash}{eb3cb49b8d436e91df17d607cbd21502}
+      \strng{authorbibnamehash}{eb3cb49b8d436e91df17d607cbd21502}
+      \strng{authornamehash}{eb3cb49b8d436e91df17d607cbd21502}
+      \strng{authorfullhash}{eb3cb49b8d436e91df17d607cbd21502}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Diakses pada: 22 November 2024}
+      \field{title}{Apa Keuntungan dari Investasi Saham?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://snips.stockbit.com/investasi/apa-keuntungan-dari-investasi-saham
+      \endverb
+      \verb{url}
+      \verb https://snips.stockbit.com/investasi/apa-keuntungan-dari-investasi-saham
+      \endverb
+    \endentry
     \entry{chairurrachman2022penerapan}{thesis}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -76,6 +107,144 @@
       \field{title}{PENERAPAN LONG SHORT-TERM MEMORY PADA DATA TIME SERIES UNTUK PREDIKSI HARGA SAHAM PT. INDOFOOD CBP SUKSES MAKMUR TBK (ICBP)}
       \field{type}{phdthesis}
       \field{year}{2022}
+    \endentry
+    \entry{ChristianANALISIS}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e80c0e8eb3fba9cc2490be78df21d67e}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={Natalis},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a50a80e851bbf9d8a7640dffb5b54a9d}{%
+           family={Frecky},
+           familyi={F\bibinitperiod},
+           given={Frecky},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \strng{fullhash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \strng{bibnamehash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \strng{authorbibnamehash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \strng{authornamehash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \strng{authorfullhash}{6b4d31c85ae270c5eeb7936bc9be9b64}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Benefita}
+      \field{month}{02}
+      \field{title}{ANALISIS PENGARUH FAKTOR-FAKTOR YANG MEMPENGARUHI HARGA SAHAM PADA PERUSAHAAN YANG TERDAFTAR DI BURSA EFEK INDONESIA}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{pages}{115}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22216/jbe.v1i1.3417
+      \endverb
+    \endentry
+    \entry{Christopher}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5447aa4026288039fccf95cf270282b3}{%
+           family={Christopher},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5447aa4026288039fccf95cf270282b3}
+      \strng{fullhash}{5447aa4026288039fccf95cf270282b3}
+      \strng{bibnamehash}{5447aa4026288039fccf95cf270282b3}
+      \strng{authorbibnamehash}{5447aa4026288039fccf95cf270282b3}
+      \strng{authornamehash}{5447aa4026288039fccf95cf270282b3}
+      \strng{authorfullhash}{5447aa4026288039fccf95cf270282b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Diakses pada: 24 November 2024}
+      \field{title}{Understanding LSTM Networks}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://colah.github.io/posts/2015-08-Understanding-LSTMs
+      \endverb
+      \verb{url}
+      \verb http://colah.github.io/posts/2015-08-Understanding-LSTMs
+      \endverb
+    \endentry
+    \entry{SaulDobilas}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6478aa8435bd69b09dc32dbe60afb982}{%
+           family={Dobilas},
+           familyi={D\bibinitperiod},
+           given={Saul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6478aa8435bd69b09dc32dbe60afb982}
+      \strng{fullhash}{6478aa8435bd69b09dc32dbe60afb982}
+      \strng{bibnamehash}{6478aa8435bd69b09dc32dbe60afb982}
+      \strng{authorbibnamehash}{6478aa8435bd69b09dc32dbe60afb982}
+      \strng{authornamehash}{6478aa8435bd69b09dc32dbe60afb982}
+      \strng{authorfullhash}{6478aa8435bd69b09dc32dbe60afb982}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Diakses pada: 24 November 2024}
+      \field{title}{LSTM Recurrent Neural Networks — How to Teach a Network to Remember the Past}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/lstm-recurrent-neural-networks-how-to-teach-a-network-to-remember-the-past-55e54c2ff22e
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/lstm-recurrent-neural-networks-how-to-teach-a-network-to-remember-the-past-55e54c2ff22e
+      \endverb
+    \endentry
+    \entry{hutagalung2019analisis}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c134edeabb7689aa8233264dcf2163d0}{%
+           family={Hutagalung},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e094a430d66cde75ac24233414df2f5a}{%
+           family={Sipayung},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a6b7428a8154897bd1aeedc085e57ac}{%
+           family={Tampubolon},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c76244ef380548add616c936e1c663af}
+      \strng{fullhash}{c76244ef380548add616c936e1c663af}
+      \strng{bibnamehash}{c76244ef380548add616c936e1c663af}
+      \strng{authorbibnamehash}{c76244ef380548add616c936e1c663af}
+      \strng{authornamehash}{c76244ef380548add616c936e1c663af}
+      \strng{authorfullhash}{c76244ef380548add616c936e1c663af}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Analisis Keuangan}
+      \field{number}{4}
+      \field{title}{Analisis teknikal dan fundamental pada saham LQ45}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{pages}{210\bibrangedash 220}
+      \range{pages}{11}
     \endentry
     \entry{julian2021peramalan}{article}{}
       \name{author}{2}{}{%
@@ -112,14 +281,121 @@
       \field{pages}{1570\bibrangedash 1580}
       \range{pages}{11}
     \endentry
+    \entry{kusuma2020saham}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ea4fae147957b6963d5600b925432ec4}{%
+           family={Kusuma},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69cee86ee5501592ca606a2637b47df7}{%
+           family={Lestari},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ce02de58936cf0309fee3aa70047185}{%
+           family={Wijaya},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2966bddc575472cfdebc414aceaed18}
+      \strng{fullhash}{a2966bddc575472cfdebc414aceaed18}
+      \strng{bibnamehash}{a2966bddc575472cfdebc414aceaed18}
+      \strng{authorbibnamehash}{a2966bddc575472cfdebc414aceaed18}
+      \strng{authornamehash}{a2966bddc575472cfdebc414aceaed18}
+      \strng{authorfullhash}{a2966bddc575472cfdebc414aceaed18}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Ekonomi Indonesia}
+      \field{number}{1}
+      \field{title}{Saham LQ45: Indeks unggulan di Bursa Efek Indonesia}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{pages}{15\bibrangedash 25}
+      \range{pages}{11}
+    \endentry
+    \entry{moghar2020stock}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ef9f9562e7479a64334a56bb3976cb33}{%
+           family={Moghar},
+           familyi={M\bibinitperiod},
+           given={Adil},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c6c16a07f39dea4dec1823ab390edd}{%
+           family={Hamiche},
+           familyi={H\bibinitperiod},
+           given={Mhamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2a5518a8310d483495aae70c90357de3}
+      \strng{fullhash}{2a5518a8310d483495aae70c90357de3}
+      \strng{bibnamehash}{2a5518a8310d483495aae70c90357de3}
+      \strng{authorbibnamehash}{2a5518a8310d483495aae70c90357de3}
+      \strng{authornamehash}{2a5518a8310d483495aae70c90357de3}
+      \strng{authorfullhash}{2a5518a8310d483495aae70c90357de3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia computer science}
+      \field{title}{Stock market prediction using LSTM recurrent neural network}
+      \field{volume}{170}
+      \field{year}{2020}
+      \field{pages}{1168\bibrangedash 1173}
+      \range{pages}{6}
+    \endentry
+    \entry{pipin2023deep}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=3df23bf66b0e159471eb37dda7e2d903}{%
+           family={Pipin},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3df23bf66b0e159471eb37dda7e2d903}
+      \strng{fullhash}{3df23bf66b0e159471eb37dda7e2d903}
+      \strng{bibnamehash}{3df23bf66b0e159471eb37dda7e2d903}
+      \strng{authorbibnamehash}{3df23bf66b0e159471eb37dda7e2d903}
+      \strng{authornamehash}{3df23bf66b0e159471eb37dda7e2d903}
+      \strng{authorfullhash}{3df23bf66b0e159471eb37dda7e2d903}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Teknologi Keuangan}
+      \field{number}{3}
+      \field{title}{Deep Learning untuk prediksi harga saham menggunakan LSTM}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{175\bibrangedash 190}
+      \range{pages}{16}
+    \endentry
     \entry{pipin2023prediksi}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=027bfcf29cd33bab6b63102f00c219b4}{%
+        {{un=1,uniquepart=given,hash=027bfcf29cd33bab6b63102f00c219b4}{%
            family={Pipin},
            familyi={P\bibinitperiod},
            given={Sio\bibnamedelima Jurnalis},
            giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=99c492e782bfae567193af16dc248e88}{%
            family={Purba},
            familyi={P\bibinitperiod},
@@ -152,6 +428,49 @@
       \field{year}{2023}
       \field{pages}{806\bibrangedash 815}
       \range{pages}{10}
+    \endentry
+    \entry{Rosyd2024PENERAPANML}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=516b0dc77c0cbcab7a287b30e4b02dbf}{%
+           family={Rosyd},
+           familyi={R\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fa239f981cefc39db40f58154f58ae1}{%
+           family={Purnamasari},
+           familyi={P\bibinitperiod},
+           given={Ade\bibnamedelima Irma},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f262b8db98b1f765534b157e103f21a}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Irfan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \strng{fullhash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \strng{bibnamehash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \strng{authorbibnamehash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \strng{authornamehash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \strng{authorfullhash}{feb2d97e4c8dfac9ae0affef5ea95335}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JATI (Jurnal Mahasiswa Teknik Informatika)}
+      \field{title}{PENERAPAN METODE LONG SHORT TERM MEMORY (LSTM) DALAM MEMPREDIKSI HARGA SAHAM PT BANK CENTRAL ASIA}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:268967231
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:268967231
+      \endverb
     \endentry
     \entry{Shen2020}{article}{}
       \name{author}{2}{}{%
@@ -277,6 +596,51 @@
       \field{pages}{39\bibrangedash 46}
       \range{pages}{8}
     \endentry
+    \entry{suleimenov2020artificial}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=96b2f2531aa863d0891c653270b61224}{%
+           family={Suleimenov},
+           familyi={S\bibinitperiod},
+           given={Ibragim\bibnamedelima E},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6fefbb665a3a83c01fa91a22a6ab492}{%
+           family={Vitulyova},
+           familyi={V\bibinitperiod},
+           given={Yelizaveta\bibnamedelima S},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf92be524fff6c5ae4b480ca0cc91049}{%
+           family={Bakirov},
+           familyi={B\bibinitperiod},
+           given={Akhat\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64f90c3a2785887ff4770fa1be57b7a8}{%
+           family={Gabrielyan},
+           familyi={G\bibinitperiod},
+           given={Oleg\bibnamedelima A},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4dbf5c1d960436d8b5436d3ca08b6857}
+      \strng{fullhash}{aa6f0a6d72dca535ef4b3d0ec2989324}
+      \strng{bibnamehash}{4dbf5c1d960436d8b5436d3ca08b6857}
+      \strng{authorbibnamehash}{4dbf5c1d960436d8b5436d3ca08b6857}
+      \strng{authornamehash}{4dbf5c1d960436d8b5436d3ca08b6857}
+      \strng{authorfullhash}{aa6f0a6d72dca535ef4b3d0ec2989324}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2020 6th International Conference on Computer and Technology Applications}
+      \field{title}{Artificial Intelligence: what is it?}
+      \field{year}{2020}
+      \field{pages}{22\bibrangedash 25}
+      \range{pages}{4}
+    \endentry
     \entry{wahyuliantini2015pengaruh}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=11d9642124ebe6ef1c36773a8af9f2da}{%
@@ -311,6 +675,35 @@
       \field{year}{2015}
       \field{pages}{146\bibrangedash 155}
       \range{pages}{10}
+    \endentry
+    \entry{wibowo2018analisis}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=beb0361a3b036bf57daed6d098f05ef4}{%
+           family={Wibowo},
+           familyi={W\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{beb0361a3b036bf57daed6d098f05ef4}
+      \strng{fullhash}{beb0361a3b036bf57daed6d098f05ef4}
+      \strng{bibnamehash}{beb0361a3b036bf57daed6d098f05ef4}
+      \strng{authorbibnamehash}{beb0361a3b036bf57daed6d098f05ef4}
+      \strng{authornamehash}{beb0361a3b036bf57daed6d098f05ef4}
+      \strng{authorfullhash}{beb0361a3b036bf57daed6d098f05ef4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jurnal Manajemen Investasi}
+      \field{number}{3}
+      \field{title}{Analisis saham LQ45 dalam konteks risiko dan imbal hasil di pasar modal Indonesia}
+      \field{volume}{14}
+      \field{year}{2018}
+      \field{pages}{45\bibrangedash 55}
+      \range{pages}{11}
     \endentry
   \enddatalist
 \endrefsection
