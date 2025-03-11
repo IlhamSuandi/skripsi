@@ -22,15 +22,44 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage[titles]{tocloft}
 \usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{citations/citation.bib}
 
 % add image paths
 \graphicspath{{images/}}
 
+% Define a new List of Images
+\newcommand{\listofimagesname}{Daftar Gambar}
+\newlistof{imagelist}{img}{\listofimagesname}
+
+% Command to add an image entry to the custom list
+\newcommand{\addimagetolist}[2]{%
+  \addcontentsline{img}{imagelist}{\protect Gambar \numberline{\thefigure}\hspace{2pt}#1}% Add the image to the custom ToC
+}
+
+% Create a new list for longtables
+\newcommand{\listoflongtablesname}{Daftar Tabel}
+\newlistof{longtablelist}{lt}{\listoflongtablesname}
+
+% Command to add longtable entries to the custom list
+\newcommand{\addlongtabletolist}[1]{%
+  \addcontentsline{lt}{longtablelist}{\protect Tabel \numberline{\thetable}#1}%
+}
+
+% Print the list of longtables
+\newcommand{\listoflongtables}{%
+  \begingroup
+    \let\thepage\relax
+    \listof{longtablelist}{\listoflongtablesname}%
+  \endgroup
+}
+
 \newenvironment{subs}
-  {\adjustwidth{3em}{0pt}}
+  % {\adjustwidth{3em}{0pt}}
+  {\adjustwidth{0em}{0pt}}
   {\endadjustwidth}
+
 
   \lstset{
     language=Python,
@@ -84,7 +113,7 @@
 % set word wrap and hyphenation
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
-\setlength{\emergencystretch}{2em}
+\setlength{\emergencystretch}{5em}
 
 % set paragraph spacing
 \onehalfspacing
@@ -97,6 +126,8 @@
 % add title page
 \begin{titlepage}
 	\thispagestyle{empty}
+	\pagestyle{empty}
+  \pagenumbering{gobble}
 	\titleformat{\chapter}[hang]{\fontsize{14}{14}\centering\bfseries}{\thechapter}{}{}
 	\titleformat{\section}[hang]{\fontsize{14}{14}\bfseries\centering}{\textbf{\thesection}}{1pc}{}
 	\centering
@@ -186,10 +217,17 @@ Akhir kata, penulis mengakui bahwa penulisan pada skripsi ini masih banyak kekur
 \titleformat{\subsubsection}[hang]{\fontsize{12}{12}\bfseries}{\thesubsubsection}{1pc}{}
 
 % Table of Contents
-% TODO: tambahkan hyperref untuk seluruh item yang ada didalam TOC
 \tableofcontents
 \addcontentsline{toc}{chapter}{Daftar Isi}
 
+% List of Images
+\listofimagelist
+\addcontentsline{toc}{chapter}{Daftar Gambar}
+\newpage
+
+% List of Images
+\listoflongtables % This prints the list of longtables
+\addcontentsline{toc}{chapter}{Daftar Tabel}
 \newpage
 
 % Start Arabic numbering from here
