@@ -1,8 +1,34 @@
-\contentsline {chapter}{Daftar Isi}{1}{}%
-\contentsline {chapter}{BAB I}{2}{}%
-\contentsline {chapter}{PENDAHULUAN}{2}{}%
-\contentsline {section}{\numberline {1.1}Latar Belakang}{2}{}%
-\contentsline {section}{\numberline {1.2}Rumusan Masalah}{6}{}%
-\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{6}{}%
-\contentsline {section}{\numberline {1.4}Manfaat Penelitian}{6}{}%
-\contentsline {chapter}{BAB II}{7}{}%
+\contentsline {chapter}{Daftar Isi}{vii}{chapter*.8}%
+\contentsline {chapter}{Daftar Gambar}{viii}{chapter*.9}%
+\contentsline {chapter}{Daftar Tabel}{ix}{chapter*.10}%
+\contentsline {chapter}{BAB I}{1}{chapter*.11}%
+\contentsline {chapter}{PENDAHULUAN}{1}{chapter*.11}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Manfaat Penelitian}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Batasan Masalah}{5}{section.1.5}%
+\contentsline {chapter}{BAB II}{7}{chapter*.12}%
+\contentsline {chapter}{KAJIAN PUSTAKA}{7}{chapter*.12}%
+\contentsline {section}{\numberline {2.1}Landasan Teori}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Saham}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Saham LQ45}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Kecerdasan Buatan}{10}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Python}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Long Short-Term Memory (LSTM)}{14}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Studi Literatur}{17}{section.2.2}%
+\contentsline {chapter}{BAB III}{23}{chapter*.21}%
+\contentsline {chapter}{METODOLOGI PENELITIAN}{23}{chapter*.21}%
+\contentsline {section}{\numberline {3.1}Lokasi Penelitian}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Waktu Penelitian}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Penentuan Subjek Penelitian}{24}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Fokus Penelitian}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Sumber Data}{25}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Teknik Pengumpulan Data}{25}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Tahapan Penelitian}{26}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Pengumpulan Data}{27}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Preprocessing Data}{28}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Pembagian Dataset}{29}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Pemilihan Model}{29}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.7.5}Evaluasi Model}{30}{subsection.3.7.5}%
+\contentsline {subsection}{\numberline {3.7.6}Analisis Hasil \& Visualisasi}{30}{subsection.3.7.6}%
